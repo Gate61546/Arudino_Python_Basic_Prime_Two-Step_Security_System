@@ -82,7 +82,7 @@ Step 6 Trouble Shooting
 
 1) When I run my application, the Arduino sketch uploads and runs.
 2) When I run the ImportSerial.py program, it shows some issues. 1) Import face_recogniton is sometimes recognized and resolved to a variable, and sometimes it cuts out. 2) Keras.models import from TensorFlow.py program is not resolved.
-3) 
+3) I was and am under the impression that the .jpg file was supposed to work in conjunction with the keras.models. Some modification to Face_Recognition starting at line 50 will need to be made.
 
 
 
