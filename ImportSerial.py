@@ -1,6 +1,5 @@
 import serial
 import time
-import face_recognition
 import cv2
 import numpy
 import os
@@ -47,8 +46,8 @@ while True:
 
                 video = cv2.VideoCapture(0)
 
-                face = face_recognition.load_image_file("One.jpg")
-                faceencoding = face_recognition.face_encodings(face)[0]
+                face = cv2.load_image_file("One.jpg")
+                faceencoding = cv2.face_encodings(face)[0]
 
                 face_encodings_list = [
                     faceencoding]
@@ -67,11 +66,11 @@ while True:
 
 
                     if s:
-                        face_coordinates = face_recognition.face_locations(resized_frame_rgb)
-                        face_encodings = face_recognition.face_encodings(resized_frame_rgb, face_coordinates)
+                        face_coordinates = cv2.face_locations(resized_frame_rgb)
+                        face_encodings = cv2.face_encodings(resized_frame_rgb, face_coordinates)
 
                         for faces in face_encodings:
-                            matches = face_recognition.compare_faces(face_encodings_list, faces)
+                            matches = cv2.compare_faces(face_encodings_list, faces)
                             if matches[0] == True:
                                 video.release()
                                 cv2.destroyAllWindows()
@@ -84,5 +83,3 @@ while True:
 
                 video.release()
                 cv2.destroyAllWindows()
-
-            
