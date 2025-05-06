@@ -18,9 +18,8 @@ Apps
 Supports and Imports from PIPy
 
 1) OpenCV/Keras (CV2)
-2) TensorFlow
-3) NumPy
-4) OS
+2) NumPy
+3) OS
    (all latest as of time of posting)
 
 Hardware
@@ -35,8 +34,7 @@ Step 1 Setting up Aduino Hardware from kit
 2) Locate the Blue USB Cable and Arudino Uno Board and grab them
 3) Collect 8 colored connector wires from the kit
 4) Plug the USB cable into the Arudino Uno and the USB 2.0 jack into your computer
-5) Use the 8 wires to connect the Arudino Uno to the Keypad. Connect the end port closest to hashtag into Port 2 on the Arduino, and connect port closest to star into port 9.
-   Connect ports 3-8 on the Arduino to the remaining 6 ports in the Keypad.
+5) Use the 8 wires to connect the Arudino Uno to the Keypad. Connect the end port closest to hashtag into Port 2 on the Arduino, and connect port closest to star into port 9. Connect ports 3-8 on the Arduino to the remaining 6 ports in the Keypad.
 
 Step 2 Setting up Arduino IDE and entering code
 
@@ -66,7 +64,7 @@ Step 5 Trouble Shooting
 
 1) When I run my application, the Arduino sketch uploads and runs.
 2) When I run the ImportSerial.py program, it shows some issues. 1) There are some bugs in the python program that need to be fixed. In the tests and demo, the keypad step functioned and was operational. However, the second step of the security system still needs work.
-3) I was and am under the impression that the .jpg file was supposed to work in conjunction with the keras.models or simply CV2 Some modification to Face_Recognition starting at line 50 will need to be made.
+3) I was and am under the impression that the .jpg file was supposed to work in conjunction with the keras.models or simply CV2. Some modification to face recognition starting at line 50 will need to be made.
 
 
 
