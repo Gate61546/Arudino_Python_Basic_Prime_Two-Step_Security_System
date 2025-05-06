@@ -1,7 +1,7 @@
 References:
 
 1) PySerial Documentation (https://pyserial.readthedocs.io/en/latest/)
-2) TensorFlow Documentation (https://www.tensorflow.org/)
+2) Arduino Documentation (https://docs.arduino.cc/)
 3) Source Code Documentation (https://github.com/harshitroy2605/2_level_security_arduini-python/tree/master and
    https://www.youtube.com/watch?v=x1D7QbnZIGU)
 
