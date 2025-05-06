@@ -46,25 +46,23 @@ Step 2 Setting up Arduino IDE and entering code
 3) Using any appropriate and researched source code and setup coding from class, begin entering Arduino C++ coding reflecting the dimensions and paramaters of the Arduino Mega 2560 keypad.
 4) Save it. I saved mine as KeypadSetipArduinoCode.
 
-Step 3 Entering and modifying Python Serial coding, and then setting up Tensorflow.
+Step 3 Entering and modifying Python Serial coding.
 
-1) Enter "serial", "time", "face_recognition", "cv2", "numpy", and "os" as imports
+1) Enter "serial", "time","cv2", "numpy", and "os" as imports
 2) Using class and/or researched source code as needed, enter the python code into the Visual Studio compiler. I saved mine as ImportSerial.py.
-3) Modify the code in line 8 to reflect the correct port name and baud rate. In this case, it should be "COM3" and "9600"
+3) Modify the code in line 8 to reflect the correct port name and baud rate. In this case, it should be "COM3" and "9800"
 4) Define the main function in lines 13 and 14 to reflect entering the correct password. print("correct password")
 5) Modify line 40 to reflect custom, 3-digit passcode.
 6) Snap a photograph with your webcam. Save it as "One.jpg". Enter it into line 50 where it says "load image file".
-7) Earlier, a model was created on Teachable Machine named "keras_model.h5". Keras compatible code, saved as TensorFlow.py, should have been generated and saved by
-   Teachable Machine. Open "keras_model.h5", "TensorFlow.py". and "labels.txt" in Visual Studio Code.
 
-Step 5 Test the System
+Step 4 Test the System
 
 1) Verify your sketch on Arduino, and upload it.
 2) Run the ImportSerial.py program with webcam running.
 3) Check for bugs, error, and Python-Arduino connection issues.
 4) It if runs, without issue, follow the instructions and enter necessary input.
 
-Step 6 Trouble Shooting
+Step 5 Trouble Shooting
 
 1) When I run my application, the Arduino sketch uploads and runs.
 2) When I run the ImportSerial.py program, it shows some issues. 1) There are some bugs in the python program that need to be fixed. In the tests and demo, the keypad step functioned and was operational. However, the second step of the security system still needs work.
